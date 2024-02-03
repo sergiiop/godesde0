@@ -6,6 +6,7 @@ import (
 	"time"
 )
 
+
 var Nombre string // Esta sera exportada por estar fuera de la función por tener mayúscula y sera visto por cualquier archivo del paquete y por los que importen el paquete
 var apellido = "Perez" // Esta no sera exportada aunque este fuera de una function ya que esta en minúscula
 var Estado bool
