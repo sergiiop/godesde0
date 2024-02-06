@@ -50,5 +50,5 @@ func main() {
 	// 	// break <- romper el for
 	// }
 	// fmt.Println(ejercicios.MultiplicationTable())
-	funciones.Calculos()
+	funciones.Exponencia(2)
 }
