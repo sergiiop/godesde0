@@ -1,8 +1,12 @@
 package main
 
+import (
+	// "github.com/sergiiop/godesde0/ejercicios"
+	"github.com/sergiiop/godesde0/files"
+)
+
 // "runtime"
 // "github.com/sergiiop/godesde0/variables"
-// "github.com/sergiiop/godesde0/ejercicios"
 
 // runtime obtiene toda la información del sistema
 
@@ -41,4 +45,11 @@ func main() {
 	// fmt.Println(message, formattedNumber)
 
 	// teclado.IngresoNumeros()
+
+	// for {
+	// 	fmt.Println("Hola")
+	// 	// break <- romper el for
+	// }
+	// fmt.Println(ejercicios.MultiplicationTable())
+	files.LeoArchivo()
 }
