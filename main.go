@@ -1,13 +1,8 @@
 package main
 
-import (
-	"fmt"
-	"log"
-
-	// "runtime"
-	// "github.com/sergiiop/godesde0/variables"
-	"github.com/sergiiop/godesde0/ejercicios"
-)
+// "runtime"
+// "github.com/sergiiop/godesde0/variables"
+// "github.com/sergiiop/godesde0/ejercicios"
 
 // runtime obtiene toda la información del sistema
 
@@ -37,11 +32,13 @@ func main() {
 	// 	fmt.Printf("%s \n", os)
 	// }
 
-	formattedNumber, message, err := ejercicios.FormattedString("12w3")
+	// formattedNumber, message, err := ejercicios.FormattedString("12w3")
 
-	if err != nil {
-		log.Fatal(err)
-	}
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
 
-	fmt.Println(message, formattedNumber)
+	// fmt.Println(message, formattedNumber)
+
+	// teclado.IngresoNumeros()
 }
