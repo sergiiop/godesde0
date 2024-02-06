@@ -1,8 +1,7 @@
 package main
 
 import (
-	// "github.com/sergiiop/godesde0/ejercicios"
-	"github.com/sergiiop/godesde0/files"
+	"github.com/sergiiop/godesde0/funciones"
 )
 
 // "runtime"
@@ -51,5 +50,5 @@ func main() {
 	// 	// break <- romper el for
 	// }
 	// fmt.Println(ejercicios.MultiplicationTable())
-	files.LeoArchivo()
+	funciones.Calculos()
 }
