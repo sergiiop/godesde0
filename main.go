@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/sergiiop/godesde0/funciones"
+	"github.com/sergiiop/godesde0/arreglos_slices"
 )
 
 // "runtime"
@@ -50,5 +50,6 @@ func main() {
 	// 	// break <- romper el for
 	// }
 	// fmt.Println(ejercicios.MultiplicationTable())
-	funciones.Exponencia(2)
+	// funciones.Exponencia(2)
+	arreglos_slices.MuestroArreglos()
 }
