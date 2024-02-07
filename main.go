@@ -51,5 +51,6 @@ func main() {
 	// }
 	// fmt.Println(ejercicios.MultiplicationTable())
 	// funciones.Exponencia(2)
-	arreglos_slices.MuestroArreglos()
+	// arreglos_slices.MuestroArreglos()
+	arreglos_slices.Capacidad()
 }
